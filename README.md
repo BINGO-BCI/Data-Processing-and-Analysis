@@ -6,10 +6,15 @@ The Data Processing component of the repository is organized into two main subfo
 
 The NATO alphabet processing folder focuses on quantitative decoding and classification approaches, including both classical and modern machine learning techniques.
 Key components include:
+
 •	Riemannian Geometry Based Methods:
+
 o	Feature extraction based on covariance matrices.
+
 o	Classification approaches operating on the Riemannian manifold of symmetric positive definite matrices.
+
 o	Baseline and comparative pipelines suitable for low sample, high dimensional EEG data.
+
 •	Deep Learning Approaches:
 o	Neural network architectures tailored to time series EEG data.
 o	End to end learning pipelines for imagined speech classification.
