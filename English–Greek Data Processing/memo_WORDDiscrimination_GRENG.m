@@ -1,4 +1,4 @@
-clearvars -except myWordScore_ALL myFreqScore_ALL
+clear
 load('BINGO_GRENG.mat')
 
 
@@ -84,14 +84,3 @@ subplot(2,1,2),imagesc(flip(FreqScore_avg,2)),colorbar,
 xticks(1:5:numel(Faxis)),xticklabels((round(Faxis(flip(xticks))))),
 yticks([1:19]),yticklabels(sensor_names),xlabel('Hz'),ylabel('#sensor')
 xticks(([knnsearch(flip(Faxis),[1:5:45]')'])),xticklabels([1:5:45])
-
-% 
-% signal=STs(1,:,1);[wt,Faxis,coi]=cwt(signal,'FilterBank',fb);
-% llabels=unique(class_labels);
-% figure(22),
-% subplot(2,1,1),imagesc(WordScore),colormap hot, colorbar
-% yticks([1:19]),yticklabels(sensor_names),ylabel('#sensor'),xticks([1:13]),xticklabels(llabels)
-% subplot(2,1,2),imagesc(flip(FreqScore,2)),colorbar,
-% %xticks(1:5:numel(Faxis)),xticklabels((round(Faxis(flip(xticks))))),
-% yticks([1:19]),yticklabels(sensor_names),xlabel('Hz'),ylabel('#sensor')
-% xticks(([knnsearch(flip(Faxis),[1:5:45]')'])),xticklabels([1:5:45])
