@@ -1,0 +1,6 @@
+[submodule "topoplot"]
+	path = topoplot
+	url = https://github.com/FranzHell/EEG-data-analysis-Course
+[submodule "English–Greek Data Processing/topoplot"]
+	path = English–Greek Data Processing/topoplot
+	url = https://github.com/FranzHell/EEG-data-analysis-Course
